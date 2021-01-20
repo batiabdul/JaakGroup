@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+	<route url="/Backend" module="Dash" action="Index" />
+	<route url="/Backend/les-categories" module="Dash" action="Categories" />
+	<route url="/Backend/les-articles" module="Dash" action="Produits" />
+	<route url="/Backend/tous-les-operations" module="Dash" action="Operation" />
+	<route url="/Backend/deconnexion" module="Dash" action="Logout" />
+</routes>

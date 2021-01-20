@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+	<route url="/" module="Show" action="Index" />
+	<route url="/jaak-nos-services" module="Show" action="Jaakservices" />
+	<route url="/jaak-nos-services?(.*)=(.*)" module="Show" action="Jaakservices" />
+	<route url="/nos-produits-bosch-(.*)" module="Show" action="Product" vars="id"/>
+	<route url="/nos-produits-motul-(.*)" module="Show" action="Product" vars="id"/>
+	<route url="/nos-produits-amazone-(.*)" module="Show" action="Product" vars="id"/>
+	<route url="/nos-produits-lg-(.*)" module="Show" action="Product" vars="id"/>
+	<route url="/produit-demande-(.*)" module="Show" action="Detail" vars="id" />
+	<route url="/a-propos" module="Show" action="About" />
+	<route url="/contact" module="Show" action="Contact" />
+</routes>
